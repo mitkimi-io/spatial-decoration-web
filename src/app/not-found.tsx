@@ -2,10 +2,10 @@
 
 import { Empty } from "@apron-design/react";
 
-export default function Home() {
+export default function NotFound() {
   return (
     <main className="home">
-      <Empty>敬请期待</Empty>
+      <Empty>404</Empty>
     </main>
   );
 }

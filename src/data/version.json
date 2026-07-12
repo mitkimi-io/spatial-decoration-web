@@ -1,0 +1,17 @@
+{
+  "version": "1.0.24",
+  "downloadUrl": "https://cdn.example.com/spatial-decoration/version/1.0.24.zip",
+  "sizeBytes": 44136578,
+  "sha256": "6b6362844d0b807ab23c1c160e5d078c9f3ddaee9b6dfa9c0e2c70a1684b973b",
+  "updatedAt": "2026-07-12T08:23:00.000Z",
+  "previousVersion": [
+    {
+      "version": "1.0.23",
+      "updatedAt": "2026-07-12T08:23:00.000Z"
+    },
+    {
+      "version": "1.0.22",
+      "updatedAt": "2026-07-12T08:23:00.000Z"
+    }
+  ]
+}

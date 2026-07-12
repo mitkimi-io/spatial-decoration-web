@@ -1,0 +1,91 @@
+{
+    "updatedAt": "2026-07-12T08:23:00.000Z",
+    "themes": [
+      {
+        "id": "builtin",
+        "version": 6,
+        "name": { "en": "Default", "zh": "默认" },
+        "description": {
+          "en": "Built-in default theme with looping video background.",
+          "zh": "内置默认主题，循环视频背景。"
+        },
+        "previewUrl": "https://cdn.example.com/spatial-decoration/themes/builtin/cover.png",
+        "downloadUrl": "https://cdn.example.com/spatial-decoration/themes/packages/builtin-v6.zip",
+        "sizeBytes": 56684956,
+        "sha256": "99492e8ba81c506d6be8882cc2fafec4ce68ed725872c2a9301683f1d0fa4fce",
+        "backgroundType": "video",
+        "bundled": true,
+        "trackCount": 4,
+        "sortOrder": 0
+      },
+      {
+        "id": "kaleidoscope",
+        "version": 3,
+        "name": { "en": "Kaleidoscope", "zh": "万花筒" },
+        "description": {
+          "en": "Kaleidoscope theme with looping video background.",
+          "zh": "万花筒主题，循环视频背景。"
+        },
+        "previewUrl": "https://cdn.example.com/spatial-decoration/themes/kaleidoscope/cover.png",
+        "downloadUrl": "https://cdn.example.com/spatial-decoration/themes/packages/kaleidoscope-v3.zip",
+        "sizeBytes": 45370250,
+        "sha256": "df8c7b1647f5125d974ac65038496943d9074a1b5df9bc9c708b975eb1c037b0",
+        "backgroundType": "video",
+        "bundled": true,
+        "trackCount": 3,
+        "sortOrder": 1
+      },
+      {
+        "id": "heartbeat",
+        "version": 7,
+        "name": { "en": "Heartbeat", "zh": "心动" },
+        "description": {
+          "en": "Heartbeat theme with looping video background.",
+          "zh": "心动主题，循环视频背景。"
+        },
+        "previewUrl": "https://cdn.example.com/spatial-decoration/themes/heartbeat/cover.png",
+        "downloadUrl": "https://cdn.example.com/spatial-decoration/themes/packages/heartbeat-v7.zip",
+        "sizeBytes": 35337057,
+        "sha256": "120a4a6df104cab7a2e8d0a7a48d9d3bcbb0308453facb4e84c48a4aaabb7ac7",
+        "backgroundType": "video",
+        "bundled": true,
+        "trackCount": 5,
+        "sortOrder": 2
+      },
+      {
+        "id": "dream",
+        "version": 5,
+        "name": { "en": "Dream", "zh": "梦幻" },
+        "description": {
+          "en": "Dream theme with looping video background.",
+          "zh": "梦幻主题，循环视频背景。"
+        },
+        "previewUrl": "https://cdn.example.com/spatial-decoration/themes/dream/cover.png",
+        "downloadUrl": "https://cdn.example.com/spatial-decoration/themes/packages/dream-v5.zip",
+        "sizeBytes": 14911368,
+        "sha256": "6c0e7201aa02f53fdb90f851671d89ee5c3912df77d8b684ffe6a0169aa3ff6e",
+        "backgroundType": "video",
+        "bundled": true,
+        "trackCount": 2,
+        "sortOrder": 3
+      },
+      {
+        "id": "stellar-orbit",
+        "version": 4,
+        "name": { "en": "Stellar Orbit", "zh": "星际轨道" },
+        "description": {
+          "en": "Stellar Orbit theme with looping video background.",
+          "zh": "星际轨道主题，循环视频背景。"
+        },
+        "previewUrl": "https://cdn.example.com/spatial-decoration/themes/stellar-orbit/cover.png",
+        "downloadUrl": "https://cdn.example.com/spatial-decoration/themes/packages/stellar-orbit-v4.zip",
+        "sizeBytes": 44136578,
+        "sha256": "6b6362844d0b807ab23c1c160e5d078c9f3ddaee9b6dfa9c0e2c70a1684b973b",
+        "backgroundType": "video",
+        "bundled": true,
+        "trackCount": 4,
+        "sortOrder": 4
+      }
+    ]
+  }
+  
