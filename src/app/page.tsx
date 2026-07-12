@@ -1,11 +1,5 @@
-"use client";
-
-import { Empty } from "@apron-design/react";
+import HomePage from "@/components/home/HomePage";
 
 export default function Home() {
-  return (
-    <main className="home">
-      <Empty>敬请期待</Empty>
-    </main>
-  );
+  return <HomePage />;
 }
