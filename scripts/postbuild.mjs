@@ -13,7 +13,6 @@ for (const name of ["themes", "version"]) {
   const content = fs.readFileSync(source, "utf8");
   const targetDir = path.join(outApiDir, name);
 
-  fs.writeFileSync(path.join(outApiDir, `${name}.json`), content);
   fs.unlinkSync(source);
   fs.mkdirSync(targetDir, { recursive: true });
   fs.writeFileSync(path.join(targetDir, "index.html"), content);
