@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "视界时光",
-  description: "视界时光",
+  description:
+    "Android TV 屏保应用，展示时间、日期与天气，搭配沉浸式动态背景与环境音乐。",
   icons: {
     icon: "/images/logo.png",
     apple: "/images/logo.png",
