@@ -1,0 +1,89 @@
+.header {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+
+  .header-container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 769px) {
+    .header-container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .header-container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    .logo-image {
+      display: block;
+      border-radius: 8px;
+      transition: opacity 0.3s ease;
+    }
+  }
+
+  .logo {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    transition: color 0.3s ease;
+    margin: 0 0 0 10px;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #007acc;
+        }
+      }
+    }
+  }
+}
+
+.dark .header {
+  background-color: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  .logo {
+    color: #ededed;
+  }
+}
